@@ -18,7 +18,7 @@ def profile_func(func):
 def hello():
     return render_template('index.html')
 
-@app.route('/hello')
+@app.route('/helloo')
 @profile_func
 def redirect_url():
     start_time = time.process_time()  # Start CPU time measurement
